@@ -8,7 +8,7 @@ $data = [
     128     => 1236789,
 ];
 
-$search = 234956;
+$search = 23456;
 
 $filteredData = new RegexIterator(
     new ArrayIterator($data),
@@ -22,6 +22,6 @@ if(count(iterator_to_array($filteredData)) > 0) {
     printf("Nem találtam!\n");
 }
 
-/*var_dump(
+var_dump(
     iterator_to_array($filteredData)
-);*/
+);
