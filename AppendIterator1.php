@@ -35,6 +35,6 @@ function test3($firstData, $secondData) {
 }
 
 
-test1($firstData, $secondData);
+test3($firstData, $secondData);
 
 
